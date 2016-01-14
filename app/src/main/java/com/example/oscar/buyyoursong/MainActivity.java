@@ -20,4 +20,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void toAdvanced(View v){
+
+        Intent intent = new Intent(this, Basico.class);
+        startActivity(intent);
+
+    }
+    public void toMedium(View v){
+
+        Intent intent = new Intent(this, Basico.class);
+        startActivity(intent);
+
+    }
+
 }

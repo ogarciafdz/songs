@@ -1,7 +1,9 @@
 package com.example.oscar.buyyoursong;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class Compra extends AppCompatActivity {
 
@@ -10,4 +12,6 @@ public class Compra extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compra);
     }
+
+
 }

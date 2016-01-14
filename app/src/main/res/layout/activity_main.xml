@@ -34,7 +34,7 @@
         android:layout_alignRight="@+id/button4"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.13"
-
+        android:onClick="toMedium"
         android:text="@string/medio"
         android:layout_alignLeft="@+id/button4"
         android:layout_alignStart="@+id/button4" />
@@ -43,6 +43,7 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="toAdvanced"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
