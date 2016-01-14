@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Intermedio">
+
+
+    <TextView
+        android:id="@+id/secondLine"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="Description"
+        android:textSize="12sp"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/firstLine"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical"
+        android:text="Example application"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/imageButton"
+        android:src="@drawable/paper"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageButton2"
+        android:layout_marginRight="34dp"
+        android:layout_marginEnd="34dp" />
+
+    <ImageButton
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/paper"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/secondLine"
+        android:layout_alignEnd="@+id/secondLine" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical"
+        android:text="Example application"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="Description"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/imageButton5"
+        android:layout_alignEnd="@+id/imageButton5" />
+
+    <ImageButton
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/paper"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/imageButton4"
+        android:src="@drawable/paper"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical"
+        android:text="Example application"
+        android:textSize="16sp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/secondLine"
+        android:layout_alignStart="@+id/secondLine"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="Description"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <ImageButton
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/imageButton5"
+        android:src="@drawable/paper"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <ImageButton
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/imageButton6"
+        android:src="@drawable/paper"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignLeft="@+id/imageButton3"
+        android:layout_alignStart="@+id/imageButton3" />
+
+</RelativeLayout>
